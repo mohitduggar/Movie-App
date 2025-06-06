@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MovieApp",
+    "slug": "movieapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mohitduggar.movieapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mohitduggar.movieapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "tmdbApiKey": "a7bf6025fe8dab00bf1a6c76fc9d4d8a"
+    },
+    "jsEngine": "jsc"
+  }
+}
